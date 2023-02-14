@@ -31,6 +31,7 @@ const SignupPage = () => {
               </label>
               <input
                 type="text"
+                autoComplete="email"
                 className="input input-primary"
                 {...register("email", { required: true })}
               />
@@ -42,6 +43,7 @@ const SignupPage = () => {
               </label>
               <input
                 type="password"
+                autoComplete="new-password"
                 className="input input-primary"
                 {...register("password", { required: true })}
               />
@@ -52,6 +54,7 @@ const SignupPage = () => {
               </label>
               <input
                 type="password"
+                autoComplete="new-password"
                 className="input input-primary"
                 {...register("passwordAgain", { required: true })}
               />

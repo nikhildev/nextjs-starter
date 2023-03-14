@@ -4,6 +4,7 @@ This is a starter repositor for a skeleton app that covers most of the applicati
 
 - [ ] Signup page
 - [ ] Login page
+- [ ] Next Auth
 - [ ] JWT session management
 - [ ] Article page
 - [ ] Front page
